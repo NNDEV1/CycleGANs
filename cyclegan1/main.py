@@ -20,6 +20,8 @@ from ipywidgets import interact, interactive, fixed
 import tensorflow.contrib.slim as slim
 import tensorflow.contrib.layers as tflayers
 
+from cyclegan import CycleGAN
+
 from os import listdir
 from matplotlib import image
 from PIL import Image
